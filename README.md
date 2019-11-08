@@ -11,6 +11,8 @@ If you are here, you might be interested in the following **classes and interfac
 * **HoeffdingTree.java**. Modifications to include the feature scores calculations (MDI and COVER). Notice that classes that inheret from HoeffdingTree (e.g., ARFHoeffdingTree) automatically implement the metrics as well, so it is not necessary to replicate the code there. 
 * **AdaptiveRandomForest.java** and **OzaBagHAT.java**. These two ensemble methods implement the FeatureScore interface. Most of the feature score calculation is delegated to the underlying tree model ARFHoeffdingTree and HoeffdingAdaptiveTree. Both tree models extends the HoeffdingTree, where the feature score calculations are implemented. 
 
+If you have further questions about the implementation, please send me a message at heitor.gomes@waikato.ac.nz
+
 ## Requirements 
 * You will need JAVA 8 or 9 installed
 * ``moa-feature-score.jar`` is required and it can be found in this repository. You may also build the jar yourself, we just provide it for convenience. 
