@@ -17,7 +17,7 @@ If you have further questions about the implementation, please send me a message
 * You will need JAVA 8 or 9 installed
 * ``moa-feature-score.jar`` is required and it can be found in this repository. You may also build the jar yourself, we just provide it for convenience. 
 * The datasets are also available in the subdirectory `data`
-* In a unix system you should be able to run the jar using ``moa-feature-score.sh``, in a windows environment please create a bat file or use the command line. Further information about how to execute MOA can be found in here: https://moa.cms.waikato.ac.nz/getting-started/
+* In a unix system you should be able to run the jar using ``moa-feature-score.sh``, in a windows environment please use ``moa-feature-score.bat`` or use the command line. Further information about how to execute MOA can be found in here: https://moa.cms.waikato.ac.nz/getting-started/
 
 
 ## Citing the paper
